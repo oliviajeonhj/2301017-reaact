@@ -1,0 +1,43 @@
+{
+   "naviDB" : 
+[{
+    "naviTitle" : "공지사항",
+    "naviLink" : "#notice"
+  },
+  {
+    "naviTitle" : "후기",
+    "naviLink" : "#review"
+                  },
+  {
+    "naviTitle" : "문의",
+    "naviLink" : "#request"
+                  }
+  ],
+
+  "qnaDB" : 
+  [{
+    "subject" : "카메라는 어떤걸 쓰시나요",
+    "content" : "질문에 관한 답변 입니다"
+  },
+  {
+    "subject" : "강의실에 들어가 지질 않아요",
+    "content" : "질문에 관한 답변 입니다"
+
+  },
+  {
+    "subject" : "앱 오류날땐 어떻게 하나요",
+    "content" : "질문에 관한 답변 입니다"
+
+  },
+  {
+    "subject" : "똑같이 보정했는데 느낌이 달라요",
+    "content" : "질문에 관한 답변 입니다"
+
+  },
+  {
+    "subject" : "사진찍는 최고의 장소",
+    "content" : "질문에 관한 답변 입니다"
+
+  }]
+
+}
