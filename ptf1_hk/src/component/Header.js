@@ -55,7 +55,7 @@ function Header(props){
             
           }} ><List className="hamburger" /></button>          
           
-         <Navi cls={ isMobile ? 'mobileNavi' :  '' } toggle={ naviOpen ? 'on' : '' }  />
+         <Navi  toggle='on'  />
         </header>
     )
   }

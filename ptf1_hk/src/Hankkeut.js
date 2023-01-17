@@ -18,11 +18,12 @@ import Footer from './component/Foorter';
 function Hankkeut() {
   return (
     <BrowserRouter>
-    <Header></Header>
+   
+    <Header />
     <Swipers contentid="banner" title="banner" section="bannerSection"  delay="4000" row="3" sb="10" bp={{
           768:{ slidesPerView: 1 },
           1024:{ slidesPerView: 1 }
-        }}></Swipers>
+        }} />
     
     <nav>
       <Link to={"/"}>소개 </Link>
@@ -39,11 +40,11 @@ function Hankkeut() {
     <Swipers contentid="review" title="Review" section="reviewSection" delay="6000" row="1" sb="0" scroll="false" bp={{
           768:{ slidesPerView: 2},
           1024:{ slidesPerView: 3 }
-        }}></Swipers>
-    <Notice></Notice>
-    <Qna></Qna>
-    <Request></Request>
-    <Footer></Footer>
+        }} />
+    <Notice />
+    <Qna />
+    <Request />
+    <Footer />
     </BrowserRouter>
   );
 }
